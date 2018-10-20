@@ -2,14 +2,14 @@ td {
   color: #686a6b;
 }
 
+.navbar .navbar-brand {
+  color: #686a6b;
+}
+
 img {
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
-}
-
-.navbar-brand {
-  text-color: #686a6b;
 }
 
 .jumbotron {

@@ -4,29 +4,30 @@ td{
     color:$color
   }
 
+.navbar{
+        .navbar-brand{
+                     color:$color
+                     }
+       }
 img {
       -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
       filter: grayscale(100%);
     }
 
-.navbar-brand {
-              text-color:#686a6b
-}
+.jumbotron{
+          background-image: url('images/backg1.jpg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          color:#66FCF1
+          }
 
-  .jumbotron{
-      background-image: url('images/backg1.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      color:#66FCF1
-  }
-
-  body{
+body{
     background-color: black;
-  }
+    }
 
-  #story{
+#story{
       background-image: url('images/backg1.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       color:#66FCF1
-  }
+      }
