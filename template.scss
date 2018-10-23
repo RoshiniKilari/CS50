@@ -1,15 +1,14 @@
 $color:#686a6b;
 
 %links{
-      color:#45A29E
-      }
-
-div{
-  a:visited{
-    @extend %links;
-    color:black;
-  }
+  color:#45A29E;
 }
+
+a:visited{
+    @extend %links;
+    font-style: italic;
+}
+
 
 td{
     color:$color
@@ -43,3 +42,12 @@ body{
       background-repeat: no-repeat;
       color:#66FCF1
       }
+
+@media print{
+            html, body {
+                        height:100%;
+                        border-style: solid;
+                        border-width: medium;
+                        overflow: hidden;
+                       }
+           }
